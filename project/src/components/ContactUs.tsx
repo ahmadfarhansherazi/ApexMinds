@@ -1,5 +1,6 @@
 import { Mail, Phone, Linkedin, Facebook, X } from "lucide-react";
 import { useState } from "react";
+const apiUrl = import.meta.env.VITE_API_URL;
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -14,7 +15,7 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const response = await fetch('https://apex-minds-backend-ye84.vercel.app/api/contact/', {
+      const response = await fetch(apiUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
