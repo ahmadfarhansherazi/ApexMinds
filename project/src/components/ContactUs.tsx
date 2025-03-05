@@ -14,7 +14,7 @@ export default function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const response = await fetch('http://localhost:5001/api/contact', {
+      const response = await fetch('https://apex-minds-backend-ye84.vercel.app/api/contact/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
