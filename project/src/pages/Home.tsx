@@ -1,11 +1,11 @@
 import Hero from "../components/Hero";
 import Stats from "../components/Stats";
-import Services from "../components/Services";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Platform from "../components/Platforms";
 import AboutUs from "../components/AboutUs";
 import ContactUs from "../components/ContactUs";
+import NewService from "../components/newService";
+import { CardDemo } from "../components/card";
 
 export default function Home() {
   return (
@@ -13,8 +13,8 @@ export default function Home() {
       <Header />
       <Hero />
       <Stats />
-      <Services />
-      <Platform />
+      <NewService />
+      <CardDemo />
       <AboutUs />
       <ContactUs />
       <Footer />

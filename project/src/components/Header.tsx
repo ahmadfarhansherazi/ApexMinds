@@ -11,7 +11,7 @@ export default function Header() {
   const navItems = [
     { name: 'Home', path: '/#hero' },
     { name: 'About', path: '/#about' },
-    { name: 'Services', path: '/#services' },
+    { name: 'Services', path: '/#newservice' },
     { name: 'Platforms', path: '/#platforms' },
     { name: 'Contact', path: '/#contactUs' },
   ];
@@ -25,7 +25,7 @@ export default function Header() {
   }, [location]);
 
   return (
-    <header className="fixed w-full bg-gradient-to-r from-gray-800 to-black text-white z-50 h-20">
+    <header className="fixed w-full bg-black text-white z-50 h-20">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/#hero" className="flex items-center space-x-3">

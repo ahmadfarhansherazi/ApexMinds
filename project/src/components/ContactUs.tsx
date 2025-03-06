@@ -46,28 +46,30 @@ export default function Contact() {
   };
 
   return (
-    <section id="contactUs" className="py-16 bg-gray-50 scroll-mt-28">
+    <section id="contactUs" className="py-16 bg-neutral-900 scroll-mt-20 pb-32">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-12">Contact Us</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <h2 className="text-3xl font-bold text-center mb-12 text-white pt-20">
+            Contact <span className="text-yellow-400">Us</span>
+          </h2> 
+        <div className="flex flex-col justify-center">
           {/* Contact Form */}
           <div>
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
-                <label className="block text-gray-700 mb-2">Name</label>
+                <label className="block text-white mb-2">Name</label>
                 <input
                   type="text"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="max-w-min px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="Your name"
                   required
                   disabled={isSubmitting}
                 />
               </div>
               <div>
-                <label className="block text-gray-700 mb-2">Email</label>
+                <label className="block text-white mb-2">Email</label>
                 <input
                   type="email"
                   name="email"
@@ -80,7 +82,7 @@ export default function Contact() {
                 />
               </div>
               <div>
-                <label className="block text-gray-700 mb-2">Message</label>
+                <label className="block text-white mb-2">Message</label>
                 <textarea
                   name="message"
                   value={formData.message}
@@ -94,7 +96,7 @@ export default function Contact() {
               </div>
               <button
                 type="submit"
-                className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 disabled:opacity-50"
+                className="w-full bg-white text-black px-6 py-3 rounded-lg hover:bg-yellow-700 hover:text-white transition duration-300 disabled:opacity-50"
                 disabled={isSubmitting}
               >
                 {isSubmitting ? "Sending..." : "Send Message"}
@@ -116,27 +118,27 @@ export default function Contact() {
           {/* Contact Info */}
           <div className="space-y-6">
             <div className="flex items-center">
-              <Mail className="h-6 w-6 text-yellow-600 mr-4" />
-              <a href="mailto:ai.apexminds@gmail.com" className="text-gray-600 hover:text-yellow-600">
+              <Mail className="h-6 w-6 text-white mr-4" />
+              <a href="mailto:ai.apexminds@gmail.com" className="text-white hover:text-yellow-600">
                 ai.apexminds@gmail.com
               </a>
             </div>
             <div className="flex items-center">
-              <Phone className="h-6 w-6 text-yellow-600 mr-4" />
-              <a href="tel:+923065258252" className="text-gray-600 hover:text-yellow-600">
+              <Phone className="h-6 w-6 text-white mr-4" />
+              <a href="tel:+923065258252" className="text-white hover:text-yellow-600">
                 +92 306 5258252
               </a>
             </div>
 
             {/* Social Links */}
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-gray-600 hover:text-yellow-600">
+              <a href="#" className="text-yellow-500 hover:text-yellow-600">
                 <Linkedin className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-yellow-600">
+              <a href="#" className="text-yellow-500 hover:text-yellow-600">
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-600 hover:text-yellow-600">
+              <a href="#" className="text-yellow-500 hover:text-yellow-600">
                 <X className="h-6 w-6" />
               </a>
             </div>
