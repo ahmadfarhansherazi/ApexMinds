@@ -29,12 +29,12 @@ const platforms = [
   { name: "Appen Work bench", icon: Workflow },
 ];
 
-export function CardDemo() {
+export function Platform() {
   return (
     <div>
       <Card className="pt-0">
         <div id="platforms" className="flex flex-col items-center justify-center scroll-mt-20">
-          <h2 className="text-3xl font-bold text-center mb-12 text-white pt-5">
+          <h2 className="text-6xl font-bold text-center mb-12 text-white  pt-12">
             Platforms & <span className="text-yellow-400">Tools</span>
           </h2>   
         </div>
@@ -43,7 +43,7 @@ export function CardDemo() {
         </CardSkeletonContainer>
       </Card>
 
-      <section className="py-16 bg-neutral-700 -mt-4 pb-10 pt-0">
+      <section className="py-16 bg-neutral-800 -mt-4 pb-10 pt-0">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {platforms.map((platform, index) => {
@@ -51,7 +51,7 @@ export function CardDemo() {
               return (
                 <div
                   key={index}
-                  className="group relative overflow-hidden dark:bg-neutral-900 to-yellow-50 p-6 rounded-xl border border-yellow-100 shadow-sm hover:shadow-lg hover:scale-105 hover:border-yellow-200 transition-all duration-300 ease-in-out"
+                  className="group relative overflow-hidden dark:bg-zinc-900 to-yellow-50 p-6 rounded-xl border border-yellow-100 shadow-sm hover:shadow-lg hover:scale-105 hover:border-yellow-200 transition-all duration-300 ease-in-out"
                 >
                   <div className="absolute inset-0 bg-yellow-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <Icon className="h-8 w-8 text-yellow-500 mb-3 mx-auto transform group-hover:scale-110 transition-transform duration-300" />
@@ -124,20 +124,20 @@ const Skeleton = () => {
   return (
     <div className="p-8 overflow-hidden h-full relative flex items-center justify-center">
       <div className="flex flex-row flex-shrink-0 justify-center items-center gap-4">
-        <Container className="h-12 w-12 circle-1">
-          <img src={tool1} alt="Tool 1" className="h-8 w-8" />
+        <Container className="h-24 w-24 circle-1">
+          <img src={tool1} alt="Tool 1" className="h-24 w-24" />
         </Container>
-        <Container className="h-16 w-16 circle-2">
-          <img src={tool2} alt="Tool 2" className="h-10 w-10" />
+        <Container className="h-24 w-24 circle-2">
+          <img src={tool2} alt="Tool 2" className="h-24 w-24" />
         </Container>
-        <Container className="h-16 w-16 circle-3">
-          <img src={tool3} alt="Tool 3" className="h-12 w-12" />
+        <Container className="h-24 w-24 circle-3">
+          <img src={tool3} alt="Tool 3" className="h-24 w-24" />
         </Container>
-        <Container className="h-16 w-16 circle-4">
-          <img src={tool4} alt="Tool 4" className="h-10 w-10" />
+        <Container className="h-24 w-24 circle-4">
+          <img src={tool4} alt="Tool 4" className="h-24 w-24" />
         </Container>
-        <Container className="h-12 w-12 circle-5">
-          <img src={tool5} alt="Tool 5" className="h-8 w-8" />
+        <Container className="h-24 w-24 circle-5">
+          <img src={tool5} alt="Tool 5" className="h-24 w-24" />
         </Container>
       </div>
 
@@ -165,7 +165,7 @@ const Sparkles = () => {
             scale: [1, 1.2, 0],
           }}
           transition={{
-            duration: random() * 2 + 4,
+            duration: random() *  + 4,
             repeat: Infinity,
             ease: "linear",
           }}
@@ -173,8 +173,8 @@ const Sparkles = () => {
             position: "absolute",
             top: `${random() * 100}%`,
             left: `${random() * 100}%`,
-            width: `2px`,
-            height: `2px`,
+            width: `4px`,
+            height: `4px`,
             borderRadius: "50%",
             zIndex: 1,
           }}
@@ -195,7 +195,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "w-full p-4 bg-neutral-700 shadow-[2px_4px_16px_0px_rgba(234,179,8,0.06)_inset] group",
+        "w-full p-4 bg-neutral-800 shadow-[2px_4px_16px_0px_rgba(234,179,8,0.06)_inset] group",
         className
       )}
     >

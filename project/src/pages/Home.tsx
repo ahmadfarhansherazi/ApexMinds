@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
 import ContactUs from "../components/ContactUs";
 import NewService from "../components/newService";
-import { CardDemo } from "../components/card";
+import { Platform } from "../components/Platform";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <Stats />
       <NewService />
-      <CardDemo />
+      <Platform />
       <AboutUs />
       <ContactUs />
       <Footer />
