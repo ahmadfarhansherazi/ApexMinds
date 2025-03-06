@@ -34,7 +34,7 @@ export default function Hero() {
               Get Started <ArrowRight className="ml-2" size={20} />
             </Link>
             <Link
-              to="/#services"
+              to="/#newservice"
               className="border-2 border-yellow-400 text-yellow-400 px-8 py-3 rounded-full font-semibold hover:bg-yellow-400 hover:text-black transition-colors"
             >
               Our Services

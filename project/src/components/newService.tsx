@@ -16,52 +16,52 @@ export default function FeaturesSectionDemo() {
     {
       title: "Data Collection & Labeling",
       description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
+        "We provide data collection and labeling solutions tailored for AI applications, ensuring diverse, high-quality datasets. With precise annotations, we enhance model accuracy and reliability. Our streamlined process guarantees optimal performance for AI-driven systems.",
       icon: <IconTerminal2 />,
     },
     {
       title: "Data Annotation (Audios, Videos, Images)",
       description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
+        "Our data annotation service converts raw data into AI-ready, structured datasets with precision. Specializing in image, video, text, and audio annotation using LoFT 2.0, we ensure high-quality labels for optimal model training.",
       icon: <IconEaseInOut />,
     },
     {
       title: "Data Transcription (Audio & Videos)",
       description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
+        "Transform audio and video into searchable, actionable text with our professional transcription services. We provide accurate, timely transcriptions to enhance AI systems, improving voice recognition, content analysis, and customer insights. With expertise in 150+ languages and dialects, our transcribers ensure every detail is captured with precision.",
       icon: <IconCurrencyDollar />,
     },
     {
       title: "Data Validation & QA",
-      description: "We just cannot be taken down by anyone.",
+      description: "Empower your AI development with our customized data collection services, delivering high-quality datasets tailored to your project's needs. Through web scraping, targeted acquisition, and meticulous validation, we ensure diverse, real-world data.",
       icon: <IconCloud />,
     },
     {
       title: "Crowdsourcing",
-      description: "You can simply share passwords instead of buying new seats",
+      description: "Leverage the power of crowdsourcing to gather diverse, high-quality data at scale. Our global workforce provides rapid, accurate annotations and insights for AI training. Ensure efficiency, scalability, and precision with our expertly managed crowdsourced solutions.",
       icon: <IconRouteAltLeft />,
     },
     {
       title: "Data Generation",
       description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
+        "Generate high-quality synthetic and real-world data tailored for AI training. Our data generation services ensure diversity, accuracy, and scalability for machine learning models. Enhance AI performance with custom datasets designed to meet your specific needs.",
       icon: <IconHelp />,
     },
     {
       title: "Human evaluation of machine generated responses",
       description:
-        "If you donot like EveryAI, we will convince you to like us.",
+        "Ensure high-quality, accurate AI responses with our human evaluation services. Expert reviewers assess relevance, coherence, and accuracy, offering critical insights. Refine and optimize your AI models with precise, data-driven feedback.",
       icon: <IconAdjustmentsBolt />,
     },
     {
       title: "Customized Data Services",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
+      description: "Get tailored data solutions designed to meet your unique AI needs. From collection to annotation and validation, we ensure high-quality, structured datasets. Power your AI models with precise, customized data services for optimal performance.",
       icon: <IconHeart />,
     },
     
   ];
   return (
-    <div id="newservice" className="relative z-10 py-20 px-4 w-full dark:bg-neutral-900 scroll-mt-20">
+    <div id="newservice" className="relative z-10 py-20 px-4 w-full bg-neutral-900 scroll-mt-20">
       <div className="container mx-auto">
         <h2 className="text-6xl font-bold text-center mb-12 text-white">
           Our <span className="text-yellow-400">Services</span>
@@ -90,27 +90,27 @@ const Feature = ({
   return (
     <div
       className={cn(
-        "flex flex-col lg:border-r  py-10 relative group/feature dark:border-neutral-800",
-        (index === 0 || index === 4) && "lg:border-l dark:border-neutral-800",
-        index < 4 && "lg:border-b dark:border-neutral-800"
+        "flex flex-col lg:border-r  py-10 relative group/feature border-neutral-600 bg-neutral-800",
+        (index === 0 || index === 4) && "lg:border-l border-neutral-600",
+        index < 4 && "lg:border-b border-neutral-600"
       )}
     >
       {index < 4 && (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-t from-yellow-100 dark:from-yellow-900 to-transparent pointer-events-none" />
+        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-t from-yellow-900 to-transparent pointer-events-none" />
       )}
       {index >= 4 && (
-        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-yellow-100 dark:from-yellow-900 to-transparent pointer-events-none" />
+        <div className="opacity-0 group-hover/feature:opacity-100 transition duration-200 absolute inset-0 h-full w-full bg-gradient-to-b from-yellow-900 to-transparent pointer-events-none" />
       )}
-      <div className="mb-4 relative z-10 px-10 text-yellow-600 dark:text-yellow-400">
+      <div className="mb-4 relative z-10 px-10 text-yellow-400">
         {icon}
       </div>
       <div className="text-lg font-bold mb-2 relative z-10 px-10">
-        <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-yellow-300 dark:bg-yellow-700 group-hover/feature:bg-yellow-500 transition-all duration-200 origin-center" />
-        <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-black dark:text-white">
+        <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-yellow-700 group-hover/feature:bg-yellow-500 transition-all duration-200 origin-center" />
+        <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-white">
           {title}
         </span>
       </div>
-      <p className="text-sm text-gray-700 dark:text-gray-300 max-w-xs relative z-10 px-10">
+      <p className="text-sm text-gray-300 max-w-xs relative z-10 px-10">
         {description}
       </p>
     </div>

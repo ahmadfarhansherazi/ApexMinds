@@ -20,7 +20,7 @@ export default function About() {
   }, []);
 
   return (
-    <section id="about" className="py-20 dark:bg-neutral-900 scroll-mt-20">
+    <section id="about" className="py-20 bg-neutral-900 scroll-mt-20">
       <div className="container mx-auto px-6">
         <div className={`transform transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}>
         <h2 className="text-6xl font-bold text-center mb-12 text-white pb-0">

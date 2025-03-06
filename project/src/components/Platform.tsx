@@ -4,9 +4,11 @@ import React, { useEffect } from "react";
 import { cn } from "../lib/utils";
 import tool1 from "../assets/images/tool1.png";
 import tool2 from "../assets/images/tool2.png";
-import tool3 from "../assets/images/tool3.png";
 import tool4 from "../assets/images/tool4.png";
 import tool5 from "../assets/images/tool5.png";
+import tool6 from "../assets/images/tool6.png";
+import tool7 from "../assets/images/tool7.png";
+import tool8 from "../assets/images/tool8.png";
 import { 
   Database, 
   Mic2, 
@@ -23,7 +25,7 @@ const platforms = [
   { name: "Sonix AI", icon: Mic2 },
   { name: "Joshtalks", icon: MessageSquare },
   { name: "Shujajia", icon: Globe },
-  { name: "Data Ocean", icon: Waves },
+  { name: "Google Data Compute", icon: Waves },
   { name: "Shaip", icon: FileText },
   { name: "DataPlus", icon: BarChart2 },
   { name: "Appen Work bench", icon: Workflow },
@@ -51,7 +53,7 @@ export function Platform() {
               return (
                 <div
                   key={index}
-                  className="group relative overflow-hidden dark:bg-zinc-900 to-yellow-50 p-6 rounded-xl border border-yellow-100 shadow-sm hover:shadow-lg hover:scale-105 hover:border-yellow-200 transition-all duration-300 ease-in-out"
+                  className="group relative overflow-hidden bg-zinc-900 to-yellow-50 p-6 rounded-xl border border-yellow-100 shadow-sm hover:shadow-lg hover:scale-105 hover:border-yellow-200 transition-all duration-300 ease-in-out"
                 >
                   <div className="absolute inset-0 bg-yellow-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <Icon className="h-8 w-8 text-yellow-500 mb-3 mx-auto transform group-hover:scale-110 transition-transform duration-300" />
@@ -130,14 +132,20 @@ const Skeleton = () => {
         <Container className="h-24 w-24 circle-2">
           <img src={tool2} alt="Tool 2" className="h-24 w-24" />
         </Container>
-        <Container className="h-24 w-24 circle-3">
-          <img src={tool3} alt="Tool 3" className="h-24 w-24" />
-        </Container>
         <Container className="h-24 w-24 circle-4">
           <img src={tool4} alt="Tool 4" className="h-24 w-24" />
         </Container>
         <Container className="h-24 w-24 circle-5">
           <img src={tool5} alt="Tool 5" className="h-24 w-24" />
+        </Container>
+        <Container className="h-24 w-24 circle-5">
+          <img src={tool6} alt="Tool 6" className="h-24 w-24" />
+        </Container>
+        <Container className="h-24 w-24 circle-5">
+          <img src={tool7} alt="Tool 7" className="h-24 w-24" />
+        </Container>
+        <Container className="h-24 w-24 circle-5">
+          <img src={tool8} alt="Tool 8" className="h-24 w-24" />
         </Container>
       </div>
 
@@ -178,7 +186,7 @@ const Sparkles = () => {
             borderRadius: "50%",
             zIndex: 1,
           }}
-          className="inline-block bg-black dark:bg-white"
+          className="inline-block  bg-white"
         ></motion.span>
       ))}
     </div>
