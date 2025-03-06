@@ -28,7 +28,7 @@ export default function Header() {
     <header className="fixed w-full bg-gradient-to-r from-gray-800 to-black text-white z-50 h-20">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-3">
+          <Link to="/#hero" className="flex items-center space-x-3">
             <img
               src={logoImage}
               alt="ApexMinds AI Logo"
