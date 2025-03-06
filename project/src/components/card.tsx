@@ -245,11 +245,9 @@ export const CardDescription = ({
 export const CardSkeletonContainer = ({
   className,
   children,
-  showGradient = true,
 }: {
   className?: string;
   children: React.ReactNode;
-  showGradient?: boolean;
 }) => {
   return (
     <div
