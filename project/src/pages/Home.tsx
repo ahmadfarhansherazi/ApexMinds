@@ -6,6 +6,8 @@ import AboutUs from "../components/AboutUs";
 import ContactUs from "../components/ContactUs";
 import NewService from "../components/newService";
 import { Platform } from "../components/Platform";
+import { Testimonials } from "../components/testimonials";
+
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       <Stats />
       <NewService />
       <Platform />
+      <Testimonials />
       <AboutUs />
       <ContactUs />
       <Footer />
