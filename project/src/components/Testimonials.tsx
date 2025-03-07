@@ -13,7 +13,7 @@ type Testimonial = {
 
 const testimonialData = [
   {
-    quote: "We partnered with this team for data annotation, and the precision they delivered was outstanding. Their expertise in image and video annotation significantly improved our AI model's accuracy. The attention to detail and commitment to quality make them a go-to choice for any AI-driven business.",
+    quote: "We partnered with ApexMinds AI for data annotation, and the precision they delivered was outstanding. Their expertise in image and video annotation significantly improved our AI model's accuracy. The attention to detail and commitment to quality make them a go-to choice for any AI-driven business.",
     name: "Ahmed Al-Farsi",
     designation: "AI Project Manager at NextGen Tech (Dubai, UAE)",
     src: "https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
