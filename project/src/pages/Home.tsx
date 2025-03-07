@@ -6,7 +6,7 @@ import AboutUs from "../components/AboutUs";
 import ContactUs from "../components/ContactUs";
 import NewService from "../components/newService";
 import { Platform } from "../components/Platform";
-import { Testimonials } from "../components/testimonials";
+import { Testimonials } from "../components/Testimonials";
 
 
 export default function Home() {
