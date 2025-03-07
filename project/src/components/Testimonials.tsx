@@ -37,7 +37,7 @@ const testimonialData = [
     src: "https://images.unsplash.com/photo-1633193231840-e8fcfcead786?q=80&w=3164&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    quote: "Evaluating machine-generated responses is crucial for our chatbot's success, and this team provided exceptional human evaluation services. Their expert reviewers helped fine-tune our NLP model, improving response accuracy and user engagement. Highly recommended!",
+    quote: "Evaluating machine-generated responses is crucial for our chatbot's success, and this team provided exceptional human evaluation services. Their expert reviewers helped fine-tune our NLP model, improving response accuracy and user engagement. Highly recommended!!",
     name: "Priya Mehta",
     designation: "AI Research Lead at Cogniva Technologies (Bangalore, India)",
     src: "https://images.unsplash.com/photo-1617009762269-c062aaf6b3a0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGluZGlhbiUyMGdpcmx8ZW58MHx8MHx8fDI%3D"
