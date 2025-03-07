@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import heroImage from "../assets/images/hero.jpg";
 
 export default function Hero() {
   return (
@@ -8,10 +9,10 @@ export default function Hero() {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: "url(https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80)",
+          backgroundImage: `url(${heroImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          opacity: "0.4",
+          opacity: "0.3",
         }}
       />
       <div className="container mx-auto px-4 z-10">
