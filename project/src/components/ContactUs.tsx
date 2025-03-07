@@ -1,6 +1,5 @@
 import { Mail, Phone, Linkedin, Facebook} from "lucide-react";
 import { useState } from "react";
-import Upwork from "../assets/images/upwork.svg";
 const apiUrl = import.meta.env.VITE_API_URL;
 
 export default function Contact() {
