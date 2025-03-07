@@ -17,8 +17,8 @@ export default function Home() {
       <Stats />
       <NewService />
       <Platform />
-      <Testimonials />
       <AboutUs />
+      <Testimonials />
       <ContactUs />
       <Footer />
     </div>
