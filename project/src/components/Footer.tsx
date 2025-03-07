@@ -1,4 +1,4 @@
-import {Linkedin, Facebook, Twitter, Mail, Phone } from 'lucide-react';
+import {Linkedin, Facebook, Mail, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import logoImage from '../assets/images/logo.png';
 
