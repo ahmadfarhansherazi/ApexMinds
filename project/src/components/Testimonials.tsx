@@ -46,7 +46,7 @@ const testimonialData = [
 
 
 export const Testimonials = () => {
-  return <AnimatedTestimonials testimonials={testimonialData} autoplay={false} />;
+  return <AnimatedTestimonials testimonials={testimonialData} autoplay={true} />;
 };
 
 export const AnimatedTestimonials = ({
