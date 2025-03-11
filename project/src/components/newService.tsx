@@ -16,7 +16,7 @@ export default function FeaturesSectionDemo() {
     {
       title: "Data Collection & Labeling",
       description:
-        "We provide data collection and labeling solutions tailored for AI applications, ensuring diverse, high-quality datasets. With precise annotations, we enhance model accuracy and reliability. Our streamlined process guarantees optimal performance for AI-driven systems.",
+        "We provide data collection and labeling solutions tailored for AI applications, ensuring diverse, high-quality datasets. With very precise annotations, we enhance model accuracy and reliability. Our streamlined process guarantees optimal performance for AI-driven systems.",
       icon: <IconTerminal2 />,
     },
     {
