@@ -27,8 +27,6 @@ export default function About() {
             About <span className="text-yellow-400">ApexMinds AI</span>
           </h2>   
           <a 
-            href="https://www.upwork.com/freelancers/~01b69a5d257cb069a8" 
-            target="_blank" 
             rel="noopener noreferrer"
             className="block cursor-pointer"
           >

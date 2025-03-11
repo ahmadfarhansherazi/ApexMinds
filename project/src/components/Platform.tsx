@@ -136,13 +136,13 @@ const Skeleton = () => {
           <img src={tool4} alt="Tool 4" className="h-24 w-24" />
         </Container>
         <Container className="h-24 w-24 circle-5">
-          <img src={tool5} alt="Tool 5" className="h-24 w-24" />
+          <img src={tool7} alt="Tool 5" className="h-24 w-24" />
         </Container>
         <Container className="h-24 w-24 circle-5">
           <img src={tool6} alt="Tool 6" className="h-24 w-24" />
         </Container>
         <Container className="h-24 w-24 circle-5">
-          <img src={tool7} alt="Tool 7" className="h-24 w-24" />
+          <img src={tool5} alt="Tool 7" className="h-24 w-24" />
         </Container>
         <Container className="h-24 w-24 circle-5">
           <img src={tool8} alt="Tool 8" className="h-24 w-24" />
