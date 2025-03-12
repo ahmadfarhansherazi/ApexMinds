@@ -21,7 +21,7 @@ const testimonialData = [
     src: male_avatar
   },
   {
-    quote: "Their transcription services have been a game-changer for our NLP projects. The accuracy of their multilingual transcriptions, especially in niche dialects, exceeded our expectations. Their ability to handle large-scale data with consistency and speed is truly commendable!",
+    quote: "Their transcription services have been a game-changer for our NLP projects. The accuracy of their multilingual transcriptions, especially in niche dialects, exceeded our expectations. Their ability to handle large-scale data with consistency and speed is truly remarkable!",
     name: "Lisa Carter",
     designation: "Head of Data Science at InnovateAI Solutions (New York, USA)",
     src: female_avatar
