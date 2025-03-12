@@ -3,13 +3,6 @@ import { motion } from "framer-motion";
 import profileImage from "../assets/images/Upwork_Profile.png";
 
 
-// const achievements = [
-//   { text: "3+ Years of Experience", icon: () => <span className="text-4xl">🏆</span> },
-//   { text: "1000+ Contributors", icon: () => <span className="text-4xl">👥</span> },
-//   { text: "150+ Supported Languages", icon: () => <span className="text-4xl">🌍</span> },
-//   { text: "98%+ Accuracy Rate", icon: () => <span className="text-4xl">✅</span> },
-// ];
-
 export default function About() {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -58,23 +51,6 @@ export default function About() {
               Maximize your AI Model's power with ApexMinds AI
             </h3>
           </div>
-
-          {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {achievements.map((achievement, index) => (
-              <div
-                key={index}
-                className={`bg-neutral-800 p-6 rounded-xl shadow-lg transform transition-all duration-500 hover:scale-105 ${
-                  isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-                }`}
-                style={{ transitionDelay: `${index * 200}ms` }}
-              >
-                <div className="flex flex-col items-center text-center">
-                  <achievement.icon />
-                  <p className="text-white font-medium mt-2">{achievement.text}</p>
-                </div>
-              </div>
-            ))}
-          </div> */}
         </div>
       </div>
     </section>
